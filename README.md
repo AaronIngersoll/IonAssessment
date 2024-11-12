@@ -1,8 +1,26 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+## Ion Assessment
+
+This is the **Ion Assessment Repo**. Below, we outline the steps you need to follow. Please clear this screen to start the project.
+
+### Instructions
+
+**What we are looking for:**
+
+- **Handling a REST API:** You can choose any API to work with.
+- **Handling an Array:** Take an array of data (from the API) and display it as a list.
+- **Handling Screen Change:** Allow the user to click on a list item to view detailed data on that item. Include a "Go Back" button.
+- **Git:** Please create a new branch named `your_name-assessment`.
+
+**Tips:**
+
+- Choose an API that allows fetching an array of data and provides additional data on each selected item within the array (e.g., SWAPI).
+- **UI Consideration:** While we don’t require a complex design, we do value a clean and organized UI.
+
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
