@@ -72,10 +72,36 @@ function App(): React.JSX.Element {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <Header />
+
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
+          <Section title="Ion Assessment">
+            This is the{' '}
+            <Text style={styles.highlight}>Ion Assessment Repo</Text> We are
+            leaving the steps here if any questions need to be answered. Please
+            clear this screen to start project.
+          </Section>
+          <Section title="Instructions">
+            What we are looking for: {'\n\n'}
+            <Text style={styles.highlight}>Handling a rest API:</Text> You can
+            choose any api to handle. {'\n'}
+            <Text style={styles.highlight}>Handling an array:</Text> We want you
+            to take an array of data(from the api) and convert it to a list.{' '}
+            {'\n'}
+            <Text style={styles.highlight}>Handling screen change:</Text> We
+            would like, as a user, to click on a list item and see data on that
+            item. Make a go back button{'\n'}
+            <Text style={styles.highlight}>GIT:</Text>Please make a new branch,
+            name it your_name-assessment{'\n'}
+            <Text style={styles.highlight}>Tips:</Text> {'\n'}Choose a API that
+            will have the capabilities of getting an array of data, and then
+            data on that item in the array that's selected. ( ex. SWAPI)
+            {'\n'}
+            UI will be something we consider. You don't have to go crazy, but
+            make it clean.
+          </Section>
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
             screen and then come back to see your edits.
