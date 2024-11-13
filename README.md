@@ -2,7 +2,7 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 ## Ion Assessment
 
-This is the **Ion Assessment Repo**. Below, we outline the steps you need to follow. Please clear this screen to start the project.
+This is the **Ion Assessment Repo**. Below, we outline the steps you need to follow.
 
 ### Instructions
 
